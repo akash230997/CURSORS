@@ -1,0 +1,413 @@
+
+h1{
+    background-color:cornflowerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/****************CLASS-SELECTORS***************/
+.box1{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#91C483;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: auto;
+}
+.box2{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#EEEEEE ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: default;
+}
+.box3{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#F9E4D4 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: none;
+}
+.box4{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#694E4E ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: help;
+}
+.box5{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#DA1212 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.box6{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#24A19C ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: progress;
+}
+.box7{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#6867AC ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: wait;
+}
+.box8{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#D9D7F1 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: cell;
+}
+.box9{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#92A9BD ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: crosshair;
+}
+.box10{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#FFCCD2 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: text;
+}
+.box11{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#FFF89A ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: vertical-text;
+}
+.box12{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#FFF8F3 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: alias;
+}
+.box13{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#548CFF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: move;
+}
+.box14{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#CDDEFF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: no-drop;
+}
+.box15{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#F5F5F5 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: not-allowed;
+}
+.box16{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#B1D0E0 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: e-resize;
+}
+.box17{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#95D1CC ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: n-resize;
+}
+.box18{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#D3E4CD ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: ne-resize;
+}
+.box19{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#FFC4E1 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: nw-resize;
+}
+.box20{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#6166B3 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: s-resize;
+}
+.box21{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#96C7C1 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: se-resize;
+}
+.box22{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#D8B6A4 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: sw-resize;
+}
+.box23{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#864879 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: w-resize;
+}
+.box24{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#88E0EF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: ew-resize;
+}
+.box25{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#87AAAA ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: ns-resize;
+}
+.box26{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#D3E4CD ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: nesw-resize;
+}
+.box27{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#ADC2A9 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: col-resize;
+}
+.box28{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#99A799 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: row-resize;
+}
+.box29{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#113CFC ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: all-scroll;
+}
+.box30{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#A2D2FF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: zoom-in;
+}
+.box31{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#316B83 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: zoom-out;
+}
+.box32{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#CAB8FF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: grab;
+}
+.box33{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#F8F0DF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: grabbing;
+}
+.box34{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#C8C6C6 ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: context-menu;
+}
+.box35{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#F0D9FF ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: cell;
+}
+.box36{
+    width: 158px;
+    height: 158px;
+    border: 2px solid;
+    background-color:#2C394B ;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: nesw-resize;
+}
+
+.texts{
+    margin-top: 74px;
+    border: 1px solid;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/****************ID's-SELECTORS***************/
